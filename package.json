@@ -1,0 +1,29 @@
+{
+  "name": "node_path_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_PATH=./shared mocha",
+    "posttest": "cross-env NODE_PATH=./shared stryker run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/express": "^4.11.1",
+    "@types/mocha": "^5.0.0",
+    "@types/node": "^9.6.2",
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.1",
+    "mocha": "^5.0.5",
+    "stryker": "^0.22.1",
+    "stryker-api": "^0.16.0",
+    "stryker-mocha-framework": "^0.9.1",
+    "stryker-mocha-runner": "^0.11.1",
+    "stryker-javascript-mutator": "^0.6.3",
+    "supertest": "^3.0.0",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  }
+}
